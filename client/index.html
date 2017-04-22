@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <nav class="nav has-shadow">
+        <div class="nav-center">
+            <a id='home' class="nav-item is-tab is-hidden-mobile is-active">
+                home
+            </a>
+            <a id='skill' class="nav-item is-tab is-hidden-mobile ">
+              skill
+            </a>
+            <a id='meals' class="nav-item is-tab is-hidden-mobile ">
+              meals
+            </a>
+        </div>
+
+    </nav>
+    <section class="section">
+       <div class="the-text">
+         <h2 id='the-text' class="title is-2">This is first Title appeared</h2>
+       </div>
+        <div class="the-button">
+           <a id='home-button' class="button is-info">home button</a>
+           <a id='skill-button' style="display:none" class="button is-info">skill button</a>
+           <a id='meals-button' style="display:none" class="button is-info">meals button</a>
+        </div>
+    </section>
+</body>
+</html>
+<script type="text/javascript" src='./js/script.js'>
+
+</script>
+<style media="screen">
+  .section{
+    margin: 150px;
+    text-align: center;
+  }
+  .the-button{
+    margin: 20px;
+  }
+</style>
